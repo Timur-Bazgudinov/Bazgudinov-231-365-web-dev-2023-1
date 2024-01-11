@@ -1,0 +1,53 @@
+body {
+    font-family:'Roboto', sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a[href^="mailto:"]:before {
+    content: "\1F4E7";
+  }
+a[href^="https://vk.com"]:before {
+    content: "\1F5E9";
+}
+.centre {
+    text-align: center;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.ref1 {
+    color: black;
+}
+.navig {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 35px;
+}
+.li-navig {
+    display: inline;
+    margin-right: 100px;
+}
+.li-navig:last-child {
+    margin-right: 0;
+}
+.rightpic1 {
+    float: right;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+.rightpic2 {
+    float: right;
+    object-fit: cover;
+    width: 260px;
+}
